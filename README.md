@@ -5,7 +5,7 @@ Hat to wear at destination imagination competitions. Inspired by Gandalf's hat f
 
 ## Documentation
 
-[Getting Started with the Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2)
+### [Getting Started with the Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2)
 
 Setup for new board:
 1. Connect board to host via USB while holding down BOOTSEL button.
@@ -19,6 +19,13 @@ led = Pin(25, Pin.OUT)
 led.value(1)
 ```
 
+### [General Documentation](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html)
+
+Notes:
+- Max current pin GPIO pin is 12 mA total for all GPIO pins is 50 mA.
+
+
+### [Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 
 ## Pinout
 
